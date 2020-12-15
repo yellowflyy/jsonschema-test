@@ -1,0 +1,10 @@
+{
+  "classname": "Test",
+  "package": "com.jsonschema.test.bean",
+  "type":"object",
+  "properties":{
+    "number":{
+      "type":"Integer"
+    }
+  }
+}
