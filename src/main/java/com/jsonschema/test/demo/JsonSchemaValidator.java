@@ -17,8 +17,8 @@ public class JsonSchemaValidator {
 
 
     public static void main(String[] args){
-        String json1 = "{\"number\":true}";
-        String json2 = "";
+        String json2 = "{\"number\":1}";
+        String json1 = "";
         boolean isSuccess = false;
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
         Resource[] resources = null;
@@ -30,7 +30,8 @@ public class JsonSchemaValidator {
                     InputStream in = JsonValidator.class.getResourceAsStream("/"+filename);
                     if(in != null){
                         JSONObject json = JSON.parseObject(in, JSONObject.class);
-                        json2 = json.toString();
+                        JSONObject jsonStr = json.getJSONObject("properties");
+                        json1 = jsonStr.toString();
                     }
                 }
             }

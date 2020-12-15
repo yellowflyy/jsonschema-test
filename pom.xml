@@ -29,13 +29,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- fge
+        <!-- fge-->
          <dependency>
              <groupId>com.github.fge</groupId>
              <artifactId>json-schema-validator</artifactId>
              <version>2.2.6</version>
-         </dependency>-->
-         <!-- fasterxml
+         </dependency>
+         <!-- fasterxml-->
          <dependency>
              <groupId>com.fasterxml.jackson.core</groupId>
              <artifactId>jackson-core</artifactId>
@@ -45,8 +45,8 @@
              <groupId>com.fasterxml.jackson.core</groupId>
              <artifactId>jackson-databind</artifactId>
              <version>2.3.0</version>
-         </dependency>-->
-        <!--<dependency>
+         </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.49</version>
@@ -55,12 +55,12 @@
             <groupId>com.jvx.trc</groupId>
             <artifactId>jsonschema-tools</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>-->
-        <dependency>
+        </dependency>
+        <!--<dependency>
             <groupId>com.jvx.trc</groupId>
             <artifactId>jsonschema-tools</artifactId>
             <version>3.0</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
